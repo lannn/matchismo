@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA62D90019D0EB8000CBAEE6 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = DA62D8FF19D0EB8000CBAEE6 /* CardMatchingGame.m */; };
 		DA729C4119CC665800A6BC67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA729C4019CC665800A6BC67 /* main.m */; };
 		DA729C4419CC665800A6BC67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA729C4319CC665800A6BC67 /* AppDelegate.m */; };
 		DA729C4719CC665800A6BC67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA729C4619CC665800A6BC67 /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA62D8FE19D0EB8000CBAEE6 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		DA62D8FF19D0EB8000CBAEE6 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 		DA729C3B19CC665800A6BC67 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA729C3F19CC665800A6BC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA729C4019CC665800A6BC67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 		DA729C6919CC77D500A6BC67 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DA62D8FE19D0EB8000CBAEE6 /* CardMatchingGame.h */,
+				DA62D8FF19D0EB8000CBAEE6 /* CardMatchingGame.m */,
 				DA729C6619CC778300A6BC67 /* Card.h */,
 				DA729C6719CC778300A6BC67 /* Card.m */,
 				DADA7F6619D03F3600A9A89D /* Deck.h */,
@@ -251,6 +256,7 @@
 				DADA7F6819D03F3600A9A89D /* Deck.m in Sources */,
 				DA729C4719CC665800A6BC67 /* ViewController.m in Sources */,
 				DA729C4419CC665800A6BC67 /* AppDelegate.m in Sources */,
+				DA62D90019D0EB8000CBAEE6 /* CardMatchingGame.m in Sources */,
 				DADA7F6E19D05D4600A9A89D /* PlayingCardDeck.m in Sources */,
 				DA729C4119CC665800A6BC67 /* main.m in Sources */,
 				DA729C6819CC778300A6BC67 /* Card.m in Sources */,
@@ -376,8 +382,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Matchismo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -386,8 +394,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Matchismo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
