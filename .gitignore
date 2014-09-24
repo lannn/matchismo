@@ -9,9 +9,12 @@ build/
 *.perspectivev3
 !default.perspectivev3
 *.xcworkspace
+*.xcworkspacedata
 !default.xcworkspace
 xcuserdata
+xcuserstate
 profile
 *.moved-aside
 DerivedData
 .idea/
+Matchismo.xcodeproj/
